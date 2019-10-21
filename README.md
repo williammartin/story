@@ -28,3 +28,8 @@ make test-units
 make test-acceptance
 ```
 
+If you really don't want to install ginkgo, you can use the default go test runner:
+
+```
+go test ./...
+```
