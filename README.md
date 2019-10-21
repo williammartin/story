@@ -18,7 +18,7 @@ Install the `ginkgo` test runner:
 
 `go get -u github.com/onsi/ginkgo/ginkgo`
 
-To run the tests you will currently need to set an env var `STORYSCRIPT_TOKEN`, and the acceptance tests assume a fresh environment.
+To run the acceptance tests you will currently need to set an env var `STORYSCRIPT_TOKEN`. Additionally, the acceptance tests assume a fresh environment.
 
 The test targets are:
 
